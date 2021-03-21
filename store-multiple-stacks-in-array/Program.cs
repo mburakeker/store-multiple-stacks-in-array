@@ -5,10 +5,8 @@ namespace store_multiple_stacks_in_array
 {
     class Program
     {
-        private static Random rng;
         static void Main(string[] args)
         {
-            rng = new Random();
             var arrayOfStacks = new ArrayOfStacks<SampleModel>();
             var stack = new Stack<SampleModel>();
             for (int i = 0; i < 15; i++)
